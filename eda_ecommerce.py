@@ -7,8 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1jaGdMkK3xrW1SGkQ4a0kMDolS1M5jCrw
 """
 
+import streamlit as st
 
-
+st.set_page_config(page_title="EDA Ecommerce", layout="wide")
+st.title("Exploratory Data Analysis of Online Retail Dataset")
 
 
 # Commented out IPython magic to ensure Python compatibility.

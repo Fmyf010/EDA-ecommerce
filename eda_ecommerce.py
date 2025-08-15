@@ -9,7 +9,7 @@ from datetime import date
 st.set_page_config(page_title="EDA Ecommerce", layout="wide")
 st.title("Exploratory Data Analysis of Online Retail Dataset")
 
-# ---------- helpers ----------
+# ---------- helpers -----------
 @st.cache_data(show_spinner=False)
 def load_csv(path_or_file):
     return pd.read_csv(path_or_file, encoding_errors="ignore")

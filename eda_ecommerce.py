@@ -526,7 +526,3 @@ Original file is located at
 # st.divider()
 # st.success("Thank You.")
 #
-
-!npm install localtunnel
-
-!streamlit run app.py &>/content/logs.txt & npx localtunnel --port 8501 & curl ipv4.icanhazip.com

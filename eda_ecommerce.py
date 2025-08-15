@@ -9,7 +9,7 @@ Original file is located at
 
 
 
-!mkdir -p .streamlit
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile .streamlit/config.toml

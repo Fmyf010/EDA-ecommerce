@@ -8,6 +8,12 @@ Original file is located at
 """
 
 import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import StrMethodFormatter
+import seaborn as sns
+from datetime import date
 
 st.set_page_config(page_title="EDA Ecommerce", layout="wide")
 st.title("Exploratory Data Analysis of Online Retail Dataset")
